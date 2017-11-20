@@ -1,3 +1,13 @@
+# bailbloc-block
+
 A tiny repo to run [Bail Bloc](https://github.com/thenewinquiry/bailbloc/) on a Raspberry Pi.
 
-Instructions: `git clone` the repo, cd into it, then run `bash bailbloc.sh`
+Setup:
+
+* `git clone` the repo
+* `sudo apt update -y`
+* `sudo apt-get install -y libcurl4-openssl-dev libjansson-dev openssl libssl`
+* `cd bailbloc-block`
+* `chmod +x minerd`
+* `chmod +x bailblock.sh`
+* `./bailbloc.sh`

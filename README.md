@@ -1,5 +1,3 @@
-# bailbloc-block
-
 A tiny repo to run [Bail Bloc](https://github.com/thenewinquiry/bailbloc/) on a Raspberry Pi.
 
 Setup:
@@ -10,4 +8,4 @@ Setup:
 * `cd bailbloc-block`
 * `chmod +x minerd`
 * `chmod +x bailblock.sh`
-* `./bailbloc.sh`
+* `bash ./bailbloc.sh`
